@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+    <Width>901</Width> <!-- Width (value in pixels). Default value: 900. Set the width of the scroller. -->
+    <Height>238</Height> <!-- Height (value in pixels). Default value: 128. Set the height of the scroller. -->     
+    <BgColor>000000</BgColor> <!-- Background Color (color hex code). Default value: ffffff. Set scroller background color. -->
+    <BgAlpha>100</BgAlpha> <!-- Background Alpha (value from 0 to 100). Default value: 100. Set scroller alpha. -->
+    <BgBorderSize>1</BgBorderSize> <!-- Background Border Size (value in pixels). Default value: 1. Set the size of the scroller border. -->
+    <BgBorderColor>000000</BgBorderColor> <!-- Background Border Color (color hex code). Default value: e0e0e0. Set the color of the scroller border. -->
+    <ThumbnailsOrder>random</ThumbnailsOrder> <!-- Thumbnails Order (normal, random). Default value: normal. Set thumbnails order. -->
+    <ResponsiveEnabled>true</ResponsiveEnabled> <!-- Responsive Enabled (true, false). Default value: true. Enable responsive layout. -->
+    <UltraResponsiveEnabled>false</UltraResponsiveEnabled> <!-- Ultra Responsive Enabled (true, false). Default value: false. Enable ultra responsive layout. Resize both width and height. It is a boost to normal response function which you must have enabled. -->
+
+    <ThumbnailsPosition>horizontal</ThumbnailsPosition> <!-- Thumbnails Position (horizontal, vertical). Default value: horizontal. Set the position of the thumbnails. -->
+    <ThumbnailsBgColor>000000</ThumbnailsBgColor> <!-- Thumbnails Background Color (color hex code). Default value: ffffff. Set the color for the thumbnails background. -->
+    <ThumbnailsBgAlpha>0</ThumbnailsBgAlpha> <!-- Thumbnails Background Alpha (value from 0 to 100). Default value: 0. Set the transparancy for the thumbnails background. -->
+    <ThumbnailsBorderSize>0</ThumbnailsBorderSize> <!-- Thumbnails Background Border Size (value in pixels). Default value: 0. Set the size of the thumbnails border. -->
+    <ThumbnailsBorderColor>e0e0e0</ThumbnailsBorderColor> <!-- Thumbnails Background Border Color (color hex code). Default value: e0e0e0. Set the color of the thumbnails border. -->
+    <ThumbnailsSpacing>9</ThumbnailsSpacing> <!-- Thumbnails Spacing (value in pixels). Default value: 10. Set the space between thumbnails. -->
+    <ThumbnailsMarginTop>10</ThumbnailsMarginTop> <!-- Thumbnails Margin Top (value in pixels). Default value: 10. Set the top margin for the thumbnails. -->
+    <ThumbnailsMarginRight>0</ThumbnailsMarginRight> <!-- Thumbnails Margin Right (value in pixels). Default value: 0. Set the right margin for the thumbnails. -->
+    <ThumbnailsMarginBottom>10</ThumbnailsMarginBottom> <!-- Thumbnails Margin Bottom (value in pixels). Default value: 10. Set the bottom margin for the thumbnails. -->
+    <ThumbnailsMarginLeft>0</ThumbnailsMarginLeft> <!-- Thumbnails Margin Left (value in pixels). Default value: 0. Set the left margin for the thumbnails. -->
+    <ThumbnailsPaddingTop>0</ThumbnailsPaddingTop> <!-- Thumbnails Padding Top (value in pixels). Default value: 0. Set the top padding for the thumbnails. -->
+    <ThumbnailsPaddingRight>0</ThumbnailsPaddingRight> <!-- Thumbnails Padding Right (value in pixels). Default value: 0. Set the right padding for the thumbnails. -->
+    <ThumbnailsPaddingBottom>0</ThumbnailsPaddingBottom> <!-- Thumbnails Padding Bottom (value in pixels). Default value: 0. Set the bottom padding for the thumbnails. -->
+    <ThumbnailsPaddingLeft>0</ThumbnailsPaddingLeft> <!-- Thumbnails Padding Left (value in pixels). Default value: 0. Set the left padding for the thumbnails. -->
+    <ThumbnailsInfo>label</ThumbnailsInfo> <!-- Info Thumbnails Display (none, tooltip, label). Default value: label. Display a small info text on the thumbnails, a tooltip or a label. -->        
+    
+    <ThumbnailsNavigationEasing>linear</ThumbnailsNavigationEasing> <!-- Thumbnails Navigation Easing (linear, swing, easeInQuad, easeOutQuad, easeInOutQuad, easeInCubic, easeOutCubic, easeInOutCubic, easeInQuart, easeOutQuart, easeInOutQuart, easeInQuint, easeOutQuint, easeInOutQuint, easeInSine, easeOutSine, easeInOutSine, easeInExpo, easeOutExpo, easeInOutExpo, easeInCirc, easeOutCirc, easeInOutCirc, easeInElastic, easeOutElastic, easeInOutElastic, easeInBack, easeOutBack, easeInOutBack, easeInBounce, easeOutBounce, easeInOutBounce). Default value: linear. Set thumbnails navigation easing. -->
+    <ThumbnailsNavigationLoop>false</ThumbnailsNavigationLoop> <!-- Enable Thumbnails Loop (true, false). Default value: false. Enable thumbnails loop ... scroll will be disabled. -->
+    
+    <ThumbnailsNavigationMouseEnabled>false</ThumbnailsNavigationMouseEnabled> <!-- Enable Thumbnails Mouse Navigation (true, false). Default value: false. Enable thumbnails mouse navigation. -->
+
+    <ThumbnailsNavigationScrollEnabled>true</ThumbnailsNavigationScrollEnabled> <!-- Enable Thumbnails Scroll Navigation (true, false). Default value: false. Enable thumbnails scroll navigation. -->
+    <ThumbnailsScrollPosition>bottom/right</ThumbnailsScrollPosition> <!-- Thumbnails Scroll Position (bottom/right, top/left). Default value: bottom/right. Set thumbnails scroll position. -->
+    <ThumbnailsScrollSize>7</ThumbnailsScrollSize> <!-- Thumbnails Scroll Size (value in pixels). Default value: 5. Set the scroll size color. -->
+    <ThumbnailsScrollScrubColor>afbd21</ThumbnailsScrollScrubColor> <!-- Thumbnails Scroll Scrub Color (color hex code). Default value: 808080. Set the scroll scrub color. -->
+    <ThumbnailsScrollBarColor>606060</ThumbnailsScrollBarColor> <!-- Thumbnails Scroll Bar Color (color hex code). Default value: e0e0e0. Set the scroll bar color. -->                     
+
+    <ThumbnailsNavigationArrowsEnabled>true</ThumbnailsNavigationArrowsEnabled> <!-- Enable Thumbnails Arrows Navigation (true, false). Default value: true. Enable thumbnails arrows navigation. -->
+    <ThumbnailsNavigationArrowsNoItemsSlide>3</ThumbnailsNavigationArrowsNoItemsSlide> <!-- Thumbnails Navigation Arrows Number Items Slide (number of thumbnails). Default value: 1. The number of thumbnails that will slide when you click the arrows. -->
+    <ThumbnailsNavigationArrowsSpeed>600</ThumbnailsNavigationArrowsSpeed> <!-- Thumbnails Navigation Arrows Speed (time in miliseconds). Default value: 600. The time the thumbnails will slide after you click the arrows. -->
+    <ThumbnailsNavigationPrev>dopts/assets/gui/images/ThumbnailsPrev3.png</ThumbnailsNavigationPrev> <!-- Thumbnails Navigation Previous Button Image (path to image). Upload the image for thumbnails navigation's previous button. -->
+    <ThumbnailsNavigationPrevHover>dopts/assets/gui/images/ThumbnailsPrevHover3.png</ThumbnailsNavigationPrevHover> <!-- Thumbnails Navigation Previous Button Hover Image (path to image). Upload the image for thumbnails navigation's previous hover button. -->
+    <ThumbnailsNavigationPrevDisabled>dopts/assets/gui/images/ThumbnailsPrevDisabled3.png</ThumbnailsNavigationPrevDisabled> <!-- Thumbnails Navigation Previous Button Disabled Image (path to image). Upload the image for thumbnails navigation's previous disabled button. -->
+    <ThumbnailsNavigationNext>dopts/assets/gui/images/ThumbnailsNext3.png</ThumbnailsNavigationNext> <!-- Thumbnails Navigation Next Button Image (path to image). Upload the image for thumbnails navigation's next button. -->
+    <ThumbnailsNavigationNextHover>dopts/assets/gui/images/ThumbnailsNextHover3.png</ThumbnailsNavigationNextHover> <!-- Thumbnails Navigation Next Button Hover Image (path to image). Upload the image for thumbnails navigation's next hover button. -->
+    <ThumbnailsNavigationNextDisabled>dopts/assets/gui/images/ThumbnailsNextDisabled3.png</ThumbnailsNavigationNextDisabled> <!-- Thumbnails Navigation Next Button Disabled Image (path to image). Upload the image for thumbnails navigation's next disabled button. -->
+                       
+    <ThumbnailLoader>dopts/assets/gui/images/ThumbnailLoader3.gif</ThumbnailLoader> <!-- Thumbnail Loader (path to image). Set the loader for the thumbnails. -->
+    <ThumbnailWidth>262</ThumbnailWidth> <!-- Thumbnail Width (the size in pixels). Default value: 100. Set the width of a thumbnail. -->
+    <ThumbnailHeight>200</ThumbnailHeight> <!-- Thumbnail Height (the size in pixels). Default value: 100. Set the height of a thumbnail. -->
+    <ThumbnailAlpha>90</ThumbnailAlpha> <!-- Thumbnail Alpha (value from 0 to 100). Default value: 100. Set the transparancy of a thumbnail. -->
+    <ThumbnailAlphaHover>100</ThumbnailAlphaHover> <!-- Thumbnail Alpha Hover (value from 0 to 100). Default value: 100. Set the transparancy of a thumbnail when hover. -->
+    <ThumbnailBgColor>000000</ThumbnailBgColor> <!-- Thumbnail Background Color (color hex code). Default value: f1f1f1. Set the color of a thumbnail's background. -->
+    <ThumbnailBgColorHover>000000</ThumbnailBgColorHover> <!-- Thumbnail Background Color Hover (color hex code). Default value: f1f1f1. Set the color of a thumbnail's background when hover. -->
+    <ThumbnailBorderSize>0</ThumbnailBorderSize> <!-- Thumbnail Border Size (value in pixels). Default value: 1. Set the size of a thumbnail's border. -->
+    <ThumbnailBorderColor>d0d0d0</ThumbnailBorderColor> <!-- Thumbnail Border Color (color hex code). Default value: d0d0d0. Set the color of a thumbnail's border. -->
+    <ThumbnailBorderColorHover>303030</ThumbnailBorderColorHover> <!-- Thumbnail Border Color Hover (color hex code). Default value: 303030. Set the color of a thumbnail's border when hover. -->
+    <ThumbnailPaddingTop>0</ThumbnailPaddingTop> <!-- Thumbnail Padding Top (value in pixels). Default value: 2. Set top padding value of a thumbnail. -->
+    <ThumbnailPaddingRight>0</ThumbnailPaddingRight> <!-- Thumbnail Padding Right (value in pixels). Default value: 2. Set right padding value of a thumbnail. -->
+    <ThumbnailPaddingBottom>0</ThumbnailPaddingBottom> <!-- Thumbnail Padding Bottom (value in pixels). Default value: 2. Set bottom padding value of a thumbnail. -->
+    <ThumbnailPaddingLeft>0</ThumbnailPaddingLeft> <!-- Thumbnail Padding Left (value in pixels). Default value: 2. Set left padding value of a thumbnail. --> 
+
+    <LightboxEnabled>true</LightboxEnabled> <!-- Enable Lightbox (true, false). Default value: true. Enable the lightbox. -->
+    <LightboxDisplayTime>600</LightboxDisplayTime> <!-- Lightbox Display Time (time in miliseconds). Default value: 600. The time the lightbox will be displayed. -->
+    <LightboxWindowColor>000000</LightboxWindowColor> <!-- Lightbox Window Color (color hex code). Default value: ffffff. Set the color for the lightbox window. -->
+    <LightboxWindowAlpha>80</LightboxWindowAlpha> <!-- Lightbox Window Alpha (value from 0 to 100). Default value: 80. Set the transparancy for the lightbox window. -->
+    <LightboxLoader>dopts/assets/gui/images/LightboxLoader3.gif</LightboxLoader> <!-- Lightbox Loader (path to image). Set the loader for the lightbox image. -->
+    <LightboxBgColor>202020</LightboxBgColor> <!-- Lightbox Background Color (color hex code). Default value: ffffff. Set the color for the lightbox background. -->
+    <LightboxBgAlpha>100</LightboxBgAlpha> <!-- Lightbox Background Alpha (value from 0 to 100). Default value: 100. Set the transparancy for the lightbox background. -->
+    <LightboxBorderSize>2</LightboxBorderSize> <!-- Lightbox Border Size (value in pixels). Default value: 1. Set the size of a lightbox's border. -->
+    <LightboxBorderColor>000000</LightboxBorderColor> <!-- Lightbox Border Color (color hex code). Default value: e0e0e0. Set the color of a lightbox's border. -->
+    <LightboxCaptionTextColor>999999</LightboxCaptionTextColor> <!-- Lightbox Caption Text Color (color hex code). Default value: 999999. Set the color for the lightbox caption. -->
+    <LightboxMarginTop>30</LightboxMarginTop> <!-- Lightbox Margin Top (value in pixels). Default value: 30. Set top margin value for the lightbox. -->
+    <LightboxMarginRight>30</LightboxMarginRight> <!-- Lightbox Margin Right (value in pixels). Default value: 30. Set right margin value for the lightbox. -->
+    <LightboxMarginBottom>30</LightboxMarginBottom> <!-- Lightbox Margin Bottom (value in pixels). Default value: 30. Set bottom margin value for the lightbox. -->
+    <LightboxMarginLeft>30</LightboxMarginLeft> <!-- Lightbox Margin Left (value in pixels). Default value: 30. Set top left value for the lightbox. -->
+    <LightboxPaddingTop>10</LightboxPaddingTop> <!-- Lightbox Padding Top (value in pixels). Default value: 10. Set top padding value for the lightbox. -->
+    <LightboxPaddingRight>10</LightboxPaddingRight> <!-- Lightbox Padding Right (value in pixels). Default value: 10. Set right padding value for the lightbox. -->
+    <LightboxPaddingBottom>10</LightboxPaddingBottom> <!-- Lightbox Padding Bottom (value in pixels). Default value: 10. Set bottom padding value for the lightbox. -->
+    <LightboxPaddingLeft>10</LightboxPaddingLeft> <!-- Lightbox Padding Left (value in pixels). Default value: 10. Set left padding value for the lightbox. -->
+    
+    <LightboxNavigationPrev>dopts/assets/gui/images/LightboxPrev3.png</LightboxNavigationPrev> <!-- Lightbox Navigation Previous Button Image (path to image). Upload the image for lightbox navigation's previous button. -->
+    <LightboxNavigationPrevHover>dopts/assets/gui/images/LightboxPrevHover3.png</LightboxNavigationPrevHover> <!-- Lightbox Navigation Previous Button Hover Image (path to image). Upload the image for lightbox navigation's previous hover button. -->
+    <LightboxNavigationNext>dopts/assets/gui/images/LightboxNext3.png</LightboxNavigationNext> <!-- Lightbox Navigation Next Button Image (path to image). Upload the image for lightbox navigation's next button. -->
+    <LightboxNavigationNextHover>dopts/assets/gui/images/LightboxNextHover3.png</LightboxNavigationNextHover> <!-- Lightbox Navigation Next Button Hover Image (path to image). Upload the image for lightbox navigation's next hover button. -->
+    <LightboxNavigationClose>dopts/assets/gui/images/LightboxClose3.png</LightboxNavigationClose> <!-- Lightbox Navigation Close Button Image (path to image). Upload the image for lightbox navigation's close button. -->
+    <LightboxNavigationCloseHover>dopts/assets/gui/images/LightboxCloseHover3.png</LightboxNavigationCloseHover> <!-- Lightbox Navigation Close Button Hover Image (path to image). Upload the image for lightbox navigation's close hover button. -->
+    <LightboxNavigationInfoBgColor>202020</LightboxNavigationInfoBgColor> <!-- Lightbox Navigation Info Background Color (color hex code). Default value: ffffff. Set the color for the lightbox info background. -->
+    <LightboxNavigationInfoTextColor>ffffff</LightboxNavigationInfoTextColor> <!-- Lightbox Navigation Info Text Color (color hex code). Default value: c0c0c0. Set the color for the lightbox info text. -->
+    <LightboxNavigationDisplayTime>600</LightboxNavigationDisplayTime> <!-- Lightbox Navigation Display Time (time in miliseconds). Default value: 600. The time the lightbox navigation will be displayed. -->
+    <LightboxNavigationTouchDeviceSwipeEnabled>true</LightboxNavigationTouchDeviceSwipeEnabled> <!-- Swipe Lightbox Navigation Enabled (true, false). Default value: true. Enable swipe lightbox navigation on touch devices. -->
+    
+    <SocialShareEnabled>false</SocialShareEnabled> <!-- Social Share Enabled (true, false). Default value: true. Enable AddThis Social Share. -->
+    <SocialShareLightbox>dopts/assets/gui/images/SocialShareLightbox3.png</SocialShareLightbox> <!-- Lightbox Social Share Button Image (path to image). Upload the image for lightbox social share button. -->
+
+    <TooltipBgColor>ffffff</TooltipBgColor> <!-- Tooltip Background Color (color hex code). Default value: ffffff. Set tooltip background color. -->
+    <TooltipStrokeColor>000000</TooltipStrokeColor> <!-- Tooltip Stroke Color (color hex code). Default value: 000000. Set tooltip stroke color. -->
+    <TooltipTextColor>000000</TooltipTextColor> <!-- Tooltip Text Color (color hex code). Default value: 000000. Set tooltip text color. -->
+
+    <LabelPosition>top</LabelPosition> <!-- Label Position (bottom, top, under). Default value: bottom. Set label position. -->
+    <LabelAlwaysVisible>false</LabelAlwaysVisible> <!-- Label Always Visible (true, false). Default value: false. On true the label is always visible, on false it will be visible only on hover. -->
+    <LabelUnderHeight>50</LabelUnderHeight> <!-- Height for Under Label (the size in pixels). Default value: 50. Set the height only for the label under a thumbnail. -->
+    <LabelBgColor>000000</LabelBgColor> <!-- Label Background Color (color hex code). Default value: 000000. Set label background color. -->
+    <LabelBgAlpha>80</LabelBgAlpha> <!-- Label Background Alpha (value from 0 to 100). Default value: 80. Set label background transparancy. -->
+    <LabelTextColor>ffffff</LabelTextColor> <!-- Label Text Color (color hex code). Default value: ffffff. Set label text color. -->    
+
+    <SlideshowEnabled>false</SlideshowEnabled> <!-- Slideshow Enabled (true, false). Default value: false. Enable or disable the slideshow. -->
+    <SlideshowTime>5000</SlideshowTime> <!-- Slideshow Time (time in miliseconds). Default: 5000. How much time a thumbnail stays until it passes to the next one. -->
+    <SlideshowLoop>false</SlideshowLoop> <!-- Slideshow Loop (true, false). Default: false. Set it to true if you don't want the slideshow to stop when it reaches the last thumbnail. -->
+</Settings>

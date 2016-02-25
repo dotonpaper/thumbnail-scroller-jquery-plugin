@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Thumbnail Scroller (jQuery Plugin)</title>
+        
+        <link rel="shortcut icon" href="assets/gui/images/dop-icon.png" />
+
+        <link rel="stylesheet" type="text/css" href="assets/gui/css/style.css" />
+        
+        <link rel="stylesheet" type="text/css" href="dopts/assets/gui/css/jquery.dop.ThumbnailScroller.css" />
+        
+        <script type="text/JavaScript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+        <script type="text/JavaScript" src="dopts/assets/js/jquery.dop.ThumbnailScroller.js"></script>
+
+        <script type="text/JavaScript">
+            $(document).ready(function(){
+                $('#scrollerContainer1').DOPThumbnailScroller({'ID': '1',
+                                                               'SettingsDataType': 'XML',
+                                                               'SettingsFilePath': 'dopts/xml/settings.xml', 
+                                                               'ContentDataType': 'XML', 
+                                                               'ContentFilePath': 'dopts/xml/content.xml'});
+      
+                $('#scrollerContainer2').DOPThumbnailScroller({'ID': '2',
+                                                               'SettingsFilePath': 'dopts/json/settings2.json',
+                                                               'ContentFilePath':'dopts/json/content2.json'});
+
+                $('#scrollerContainer3').DOPThumbnailScroller({'ID': '3',
+                                                               'SettingsDataType': 'HTML',
+                                                               'ContentDataType': 'HTML'});
+ 
+                $('#scrollerContainer4').DOPThumbnailScroller({'ID': '4',
+                                                               'SettingsFilePath': 'dopts/json/settings4.json', 
+                                                               'ContentFilePath':'dopts/json/content4.json'});
+                                                           
+                $('#scrollerContainer5').DOPThumbnailScroller({'ID': '5',
+                                                               'SettingsFilePath': 'dopts/json/settings5.json', 
+                                                               'ContentFilePath':'dopts/json/content5.json'});  
+                                                           
+                $('#scrollerContainer6').DOPThumbnailScroller({'ID': '6',
+                                                               'SettingsFilePath': 'dopts/json/settings6.json', 
+                                                               'ContentFilePath':'dopts/json/content6.json'});
+            });
+        </script>  
+    </head>
+    <body>
+       
+        <div id="wrapper">
+            <div id="header">                
+                <h1 id="site-title">
+                    <a href="" title="Thumbnail Scroller (jQuery Plugin)">Thumbnail Scroller (jQuery Plugin)</a>
+                </h1>
+                <div id="works"><img src="assets/gui/images/works.png" alt="" /></div>
+                <div id="customization"><img src="assets/gui/images/customization.png" alt="" /></div>
+            </div>
+            
+            <div id="main">
+		<div id="container">
+                    <div id="content">
+                        <div>
+                            <h2 class="entry-title">Example 1</h2>
+                            <div class="entry-meta">&nbsp;</div>
+                            <div class="entry-content">
+                                <div id="scrollerContainer1"></div>
+                                <p>
+                                    A very customizable jQuery Plugin, that can be edited from a HTML, JSON or XML file. The scroller is completely resizable and is compatible with all browsers and devices (compatible with iOS & Android).
+                                    You can add HTML, Flash, embed YouTube, Vimeo … videos, have a lightbox … 
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="entry-title">Example 2</h2>
+                            <div class="entry-meta">&nbsp;</div>
+                            <div class="entry-content">
+                                <div id="scrollerContainer2"></div>
+                                <p>
+                                    You can easily change the Thumbnail Scroller style, add a scroll bar and use the slideshow option.
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="entry-title">Example 3</h2>
+                            <div class="entry-meta">&nbsp;</div>
+                            <div class="entry-content">
+                                <div id="scrollerContainer3">
+                                    <ul class="Settings" style="display:none;">
+                                        <li class="Width">901</li>
+                                        <li class="Height">238</li>     
+                                        <li class="BgColor">000000</li>
+                                        <li class="BgAlpha">100</li>
+                                        <li class="BgBorderSize">1</li>
+                                        <li class="BgBorderColor">000000</li>
+                                        <li class="ThumbnailsOrder">random</li>
+                                        <li class="ResponsiveEnabled">true</li>
+                                        <li class="UltraResponsiveEnabled">false</li>
+                                        <li class="ThumbnailsOrder">random</li>
+                                        <li class="ThumbnailsPosition">horizontal</li>
+                                        <li class="ThumbnailsBgColor">000000</li>
+                                        <li class="ThumbnailsBgAlpha">0</li>
+                                        <li class="ThumbnailsBorderSize">0</li>
+                                        <li class="ThumbnailsBorderColor">e0e0e0</li>
+                                        <li class="ThumbnailsSpacing">9</li>
+                                        <li class="ThumbnailsMarginTop">10</li>
+                                        <li class="ThumbnailsMarginRight">0</li>
+                                        <li class="ThumbnailsMarginBottom">10</li>
+                                        <li class="ThumbnailsMarginLeft">0</li>
+                                        <li class="ThumbnailsPaddingTop">0</li>
+                                        <li class="ThumbnailsPaddingRight">0</li>
+                                        <li class="ThumbnailsPaddingBottom">0</li>
+                                        <li class="ThumbnailsPaddingLeft">0</li>
+                                        <li class="ThumbnailsInfo">label</li>
+                                        <li class="ThumbnailsNavigationEasing">linear</li>
+                                        <li class="ThumbnailsNavigationLoop">false</li>
+                                        <li class="ThumbnailsNavigationMouseEnabled">false</li>
+                                        <li class="ThumbnailsNavigationScrollEnabled">true</li>
+                                        <li class="ThumbnailsScrollPosition">bottom/right</li>
+                                        <li class="ThumbnailsScrollSize">7</li>
+                                        <li class="ThumbnailsScrollScrubColor">afbd21</li>
+                                        <li class="ThumbnailsScrollBarColor">606060</li> 
+                                        <li class="ThumbnailsNavigationArrowsEnabled">true</li>
+                                        <li class="ThumbnailsNavigationArrowsNoItemsSlide">3</li>
+                                        <li class="ThumbnailsNavigationArrowsSpeed">600</li>
+                                        <li class="ThumbnailsNavigationPrev">dopts/assets/gui/images/ThumbnailsPrev3.png</li>
+                                        <li class="ThumbnailsNavigationPrevHover">dopts/assets/gui/images/ThumbnailsPrevHover3.png</li>
+                                        <li class="ThumbnailsNavigationPrevDisabled">dopts/assets/gui/images/ThumbnailsPrevDisabled3.png</li>
+                                        <li class="ThumbnailsNavigationNext">dopts/assets/gui/images/ThumbnailsNext3.png</li>
+                                        <li class="ThumbnailsNavigationNextHover">dopts/assets/gui/images/ThumbnailsNextHover3.png</li>
+                                        <li class="ThumbnailsNavigationNextDisabled">dopts/assets/gui/images/ThumbnailsNextDisabled3.png</li>
+                                        <li class="ThumbnailLoader">dopts/assets/gui/images/ThumbnailLoader3.gif</li>
+                                        <li class="ThumbnailWidth">262</li>
+                                        <li class="ThumbnailHeight">200</li>
+                                        <li class="ThumbnailAlpha">90</li>
+                                        <li class="ThumbnailAlphaHover">100</li>
+                                        <li class="ThumbnailBgColor">000000</li>
+                                        <li class="ThumbnailBgColorHover">000000</li>
+                                        <li class="ThumbnailBorderSize">0</li>
+                                        <li class="ThumbnailBorderColor">d0d0d0</li>
+                                        <li class="ThumbnailBorderColorHover">303030</li>
+                                        <li class="ThumbnailPaddingTop">0</li>
+                                        <li class="ThumbnailPaddingRight">0</li>
+                                        <li class="ThumbnailPaddingBottom">0</li>
+                                        <li class="ThumbnailPaddingLeft">0</li> 
+                                        <li class="LightboxEnabled">true</li>
+                                        <li class="LightboxDisplayTime">600</li>
+                                        <li class="LightboxWindowColor">000000</li>
+                                        <li class="LightboxWindowAlpha">80</li>
+                                        <li class="LightboxLoader">dopts/assets/gui/images/LightboxLoader3.gif</li>
+                                        <li class="LightboxBgColor">202020</li>
+                                        <li class="LightboxBgAlpha">100</li>
+                                        <li class="LightboxBorderSize">2</li>
+                                        <li class="LightboxBorderColor">000000</li>
+                                        <li class="LightboxCaptionTextColor">999999</li>
+                                        <li class="LightboxMarginTop">30</li>
+                                        <li class="LightboxMarginRight">30</li>
+                                        <li class="LightboxMarginBottom">30</li>
+                                        <li class="LightboxMarginLeft">30</li>
+                                        <li class="LightboxPaddingTop">10</li>
+                                        <li class="LightboxPaddingRight">10</li>
+                                        <li class="LightboxPaddingBottom">10</li>
+                                        <li class="LightboxPaddingLeft">10</li>
+                                        <li class="LightboxNavigationPrev">dopts/assets/gui/images/LightboxPrev3.png</li>
+                                        <li class="LightboxNavigationPrevHover">dopts/assets/gui/images/LightboxPrevHover3.png</li>
+                                        <li class="LightboxNavigationNext">dopts/assets/gui/images/LightboxNext3.png</li>
+                                        <li class="LightboxNavigationNextHover">dopts/assets/gui/images/LightboxNextHover3.png</li>
+                                        <li class="LightboxNavigationClose">dopts/assets/gui/images/LightboxClose3.png</li>
+                                        <li class="LightboxNavigationCloseHover">dopts/assets/gui/images/LightboxCloseHover3.png</li>
+                                        <li class="LightboxNavigationInfoBgColor">202020</li>
+                                        <li class="LightboxNavigationInfoTextColor">ffffff</li>
+                                        <li class="LightboxNavigationDisplayTime">600</li>
+                                        <li class="LightboxNavigationTouchDeviceSwipeEnabled">true</li>
+                                        <li class="SocialShareEnabled">false</li>
+                                        <li class="SocialShareLightbox">dopts/assets/gui/images/SocialShareLightbox3.png</li>
+                                        <li class="TooltipBgColor">ffffff</li>
+                                        <li class="TooltipStrokeColor">000000</li>
+                                        <li class="TooltipTextColor">000000</li>
+                                        <li class="LabelPosition">top</li>
+                                        <li class="LabelAlwaysVisible">false</li>
+                                        <li class="LabelUnderHeight">50</li>
+                                        <li class="LabelBgColor">000000</li>
+                                        <li class="LabelBgAlpha">80</li>
+                                        <li class="LabelTextColor">ffffff</li>
+                                        <li class="SlideshowEnabled">false</li>
+                                        <li class="SlideshowTime">5000</li>
+                                        <li class="SlideshowLoop">false</li>
+                                    </ul>
+                                    <ul class="Content" style="display:none;">
+                                        <li>
+                                            <img class="Image" src="assets/images/image01.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image01.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image02.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image02.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image03.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image03.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image04.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image04.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image08.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image08.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image09.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image09.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image10.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image10.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image11.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image11.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image12.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image12.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image13.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image13.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image14.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image14.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                        <li>
+                                            <img class="Image" src="assets/images/image15.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <img class="Thumb" src="assets/images/thumbs/image15.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit." title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                                            <span class="Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            <span class="Caption"></span>
+                                            <span class="Media"></span>
+                                            <span class="LightboxMedia"></span>
+                                            <span class="Link"></span>
+                                            <span class="Target">_blank</span>
+                                        </li>
+                                    </ul>                                   
+                                </div>
+                                <p>
+                                    You can easily create a Image Scroller with a lightbox and you can set the number of images that will slide when you click on the arrows.
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="entry-title">Example 4</h2>
+                            <div class="entry-meta">&nbsp;</div>
+                            <div class="entry-content">
+                                <div id="scrollerContainer4"></div>
+                                <p>
+                                    You can navigate through the Thumbnail Scroller using only the mouse and you can add one of 32 easing effects.
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="entry-title">Example 5</h2>
+                            <div class="entry-meta">&nbsp;</div>
+                            <div class="entry-content">
+                                <div id="scrollerContainer5"></div>
+                                <p>
+                                    If you want you can use the Thumbnail Scroller vertically, for easy integration into sidebars or other areas of your website that have a small width.
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="entry-title">Example 6</h2>
+                            <div class="entry-meta">&nbsp;</div>
+                            <div class="entry-content">
+                                <div id="scrollerContainer6"></div>
+                                <p>
+                                    An example were you have the label under the thumbnails and a slideshow with a continuous loop.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="footer">
+                <div id="w3c-valid">
+                    <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" /></a>
+                </div>		
+                <div id="colophon">
+                    <div id="site-info">
+                        <a href="http://dopdemo.net/jquery/thumbnail-gallery/" title="Thumbnail Scroller (jQuery Plugin)">Thumbnail Scroller (jQuery Plugin)</a>
+                    </div>
+                    <div id="site-generator">
+                        Powered by <a href="http://www.dopdemo.net" title="DOP Demo" style="background:none;">DOP Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

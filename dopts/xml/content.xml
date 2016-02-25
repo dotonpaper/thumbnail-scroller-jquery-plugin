@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Content>
+    <Item>
+        <Image>assets/images/image01.jpg</Image>
+        <Thumb>assets/images/thumbs/image01.jpg</Thumb>
+        <Title>Click for lightbox</Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[]]></LightboxMedia>
+        <Link></Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image02.jpg</Image>
+        <Thumb>assets/images/thumbs/image02.jpg</Thumb>
+        <Title><![CDATA[Thumbnail with link]]></Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[]]></LightboxMedia>
+        <Link>http://codecanyon.net/item/thumbnail-scroller-jquery-plugin/168867?ref=DOTonPAPER </Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image03.jpg</Image>
+        <Thumb>assets/images/thumbs/image03.jpg</Thumb>
+        <Title>YouTube video</Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[<iframe width="853" height="480" src="http://www.youtube.com/embed/dYK_Gqyf48Y?rel=0" frameborder="0" allowfullscreen></iframe>]]></LightboxMedia>
+        <Link></Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image04.jpg</Image>
+        <Thumb>assets/images/thumbs/image04.jpg</Thumb>
+        <Title><![CDATA[]]></Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[<div style="height:100px; width:100px;">
+    <div style="color:#afbd21; font-family:Arial; font-size:12px; line-height:1em; padding-top: 28px; text-align:center;">You can add HTML &  Media content into your thumbnail.</div>
+</div>]]></Media>
+        <LightboxMedia><![CDATA[<div style="background: #d0d0d0; height:400px; width:800px;">
+    <div style="color:#afbd21; font-family:Arial; font-size:40px; line-height:1em; padding: 160px 50px 0 50px; text-align:center;">You can add HTML & Media content into the lightbox. </div>
+</div>]]></LightboxMedia>
+        <Link></Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image05.jpg</Image>
+        <Thumb>assets/images/thumbs/image05.jpg</Thumb>
+        <Title>Vimeo video</Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[<iframe src="http://player.vimeo.com/video/6755431?title=0&byline=0&portrait=0&color=c9c9c9" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>]]></LightboxMedia>
+        <Link></Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image06.jpg</Image>
+        <Thumb>assets/images/thumbs/image06.jpg</Thumb>
+        <Title>Lightbox with caption</Title>
+        <Caption><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum nisl ligula. In congue semper ultricies. Aenean blandit blandit bibendum. Donec erat metus, volutpat quis semper non, pellentesque vel libero. Donec iaculis iaculis eros, quis laoreet dui malesuada vel. In vel nisl a massa faucibus pulvinar.]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[]]></LightboxMedia>
+        <Link></Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image07.jpg</Image>
+        <Thumb>assets/images/thumbs/image07.jpg</Thumb>
+        <Title><![CDATA[Thumbnail with link]]></Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[]]></LightboxMedia>
+        <Link>http://codecanyon.net/item/thumbnail-scroller-jquery-plugin/168867?ref=DOTonPAPER </Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image08.jpg</Image>
+        <Thumb>assets/images/thumbs/image08.jpg</Thumb>
+        <Title><![CDATA[Click for lightbox]]></Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[]]></LightboxMedia>
+        <Link></Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image09.jpg</Image>
+        <Thumb>assets/images/thumbs/image09.jpg</Thumb>
+        <Title><![CDATA[Thumbnail with link]]></Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[]]></LightboxMedia>
+        <Link>http://codecanyon.net/item/thumbnail-scroller-jquery-plugin/168867?ref=DOTonPAPER</Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image10.jpg</Image>
+        <Thumb>assets/images/thumbs/image10.jpg</Thumb>
+        <Title><![CDATA[Click for lightbox]]></Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[]]></LightboxMedia>
+        <Link></Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image11.jpg</Image>
+        <Thumb>assets/images/thumbs/image11.jpg</Thumb>
+        <Title><![CDATA[Thumbnail with link]]></Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[]]></LightboxMedia>
+        <Link>http://codecanyon.net/item/thumbnail-scroller-jquery-plugin/168867?ref=DOTonPAPER</Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image12.jpg</Image>
+        <Thumb>assets/images/thumbs/image12.jpg</Thumb>
+        <Title><![CDATA[Click for lightbox]]></Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[]]></LightboxMedia>
+        <Link></Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image13.jpg</Image>
+        <Thumb>assets/images/thumbs/image13.jpg</Thumb>
+        <Title><![CDATA[Thumbnail with link]]></Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[]]></LightboxMedia>
+        <Link>http://codecanyon.net/item/thumbnail-scroller-jquery-plugin/168867?ref=DOTonPAPER</Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image14.jpg</Image>
+        <Thumb>assets/images/thumbs/image14.jpg</Thumb>
+        <Title><![CDATA[Click for lightbox]]></Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[]]></LightboxMedia>
+        <Link></Link>
+        <Target>_blank</Target>
+    </Item>
+    <Item>
+        <Image>assets/images/image15.jpg</Image>
+        <Thumb>assets/images/thumbs/image15.jpg</Thumb>
+        <Title><![CDATA[Thumbnail with link]]></Title>
+        <Caption><![CDATA[]]></Caption>
+        <Media><![CDATA[]]></Media>
+        <LightboxMedia><![CDATA[]]></LightboxMedia>
+        <Link>http://codecanyon.net/item/thumbnail-scroller-jquery-plugin/168867?ref=DOTonPAPER</Link>
+        <Target>_blank</Target>
+    </Item>
+</Content>

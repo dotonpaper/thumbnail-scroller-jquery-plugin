@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td{
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body{
+    line-height: 1;
+}
+
+h1{
+    clear: both;
+    font-weight: normal;
+}
+
+a img {
+    border: none;
+}
+
+#container{
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
+}
+
+#content{
+    margin: 0 20px 0 20px;
+}
+
+#footer{
+    clear: both;
+    width: 100%;
+}
+
+/******************************************************************************* Fonts */
+
+body{
+    font-family: Georgia, "Bitstream Charter", serif;
+}
+
+#site-info, #site-title, .entry-meta, .entry-title, .navigation{
+    font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+/******************************************************************************* Structure */
+
+#main, #wrapper{       
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0 20px;
+    max-width: 940px;
+}
+
+/******************************************************************************* Global Elements */
+
+body{
+    background: url(../images/bg.jpg);
+    color: #666;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/******************************************************************************* Text elements */
+
+p{
+    margin: 30px 0 18px 0;
+    text-align: justify;
+}
+
+strong{
+    font-weight: bold;
+}
+
+em, i{
+    font-style: italic;
+}
+
+a:link {
+    color: #0066cc;
+}
+
+a:visited {
+    color: #743399;
+}
+
+a:active, a:hover{
+    color: #ff4b33;
+}
+
+/******************************************************************************* Header */
+
+.DOP_Info{
+    left: 5px;
+    margin: 50px 0 0 0;
+    position: fixed;
+    z-index: 100;
+}
+
+.DOP_Info a{
+    display: block;
+    margin: 5px 0 0 0;
+}
+
+.DOP_ThumbnailScroller_Container{
+   -moz-box-shadow: 0 0 10px #d0d0d0;
+    -webkit-box-shadow: 0 0 10px #d0d0d0;
+    box-shadow: 0 0 10px #d0d0d0;
+}
+
+#scrollerContainer4 .DOP_ThumbnailScroller_Container,
+#scrollerContainer6 .DOP_ThumbnailScroller_Container{
+    -moz-box-shadow: 0 0 0px #d0d0d0;
+    -webkit-box-shadow: 0 0 0px #d0d0d0;
+    box-shadow: 0 0 0px #d0d0d0;
+}
+
+#scrollerContainer5{
+    margin: 0 auto 0 auto;
+    width: 243px;
+}
+
+#DOPThumbnailScroller3 .DOP_ThumbnailScroller_Container{
+	-moz-box-shadow: 0 0 0 #d0d0d0;
+    -webkit-box-shadow: 0 0 0 #d0d0d0;
+    box-shadow: 0 0 0 #d0d0d0;
+}
+
+#header {
+    padding: 30px 0 0 0;
+}
+
+#works{
+    position: absolute;
+    margin: -10px 0 0 520px;
+}
+
+#customization{
+	position: fixed;
+	margin: 250px 0 0 -180px;
+}
+
+#site-title{
+    float: left;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 18px 0;
+    width: 700px;
+}
+
+#site-title a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/******************************************************************************* Content */
+
+#main{
+    clear: both;
+    overflow: hidden;
+    padding: 40px 0 0 0;
+}
+
+#content{
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 36px;
+}
+
+#content p{
+    margin-bottom: 24px;
+}
+
+#content .entry-title{
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.3em;
+    margin-bottom: 0;
+}
+
+.entry-title a:link, .entry-title a:visited{
+    color: #000;
+    text-decoration: none;
+}
+
+.entry-title a:active, .entry-title a:hover{
+    color: #ff4b33;
+}
+
+.entry-meta{
+    color: #888;
+    font-size: 12px;
+}
+
+.entry-content{
+    clear: both;
+    padding: 12px 0 0 0;
+}
+
+.entry-meta a{
+    color: #888;
+}
+
+.entry-meta a:hover{
+	color: #ff4b33;
+}
+
+/******************************************************************************* Navigation */
+
+.navigation{
+    color: #888;
+    font-size: 14px;
+    line-height: 18px;
+    overflow: hidden;
+    width:900px;
+}
+
+.navigation a:link, .navigation a:visited{
+    color: #888;
+    text-decoration: none;
+}
+
+.navigation a:active, .navigation a:hover{
+    color: #ff4b33;
+}
+
+#nav-top{
+    margin: 0 0 30px 0;
+}
+
+.nav-previous{
+    float: left;
+    width: 50%;
+}
+
+.nav-next{
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+/******************************************************************************* Footer */
+
+#footer{
+    margin-bottom: 20px;
+}
+
+#w3c-valid{
+    margin: 0 0 22px 0; 
+    text-align: right;
+}
+
+#colophon {
+    border-top: 4px solid #000;
+    margin-top: -4px;
+    overflow: hidden;
+    padding: 18px 0;
+}
+
+#site-info{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    width: 700px;
+}
+
+#site-info a{
+    color: #000;
+    text-decoration: none;
+}
+
+#site-generator{
+    float: right;
+    font-style: italic;
+    position: relative;
+    text-align: right;
+    width: 220px;
+}
+
+#site-generator a{
+    color: #666;
+    display: inline-block;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+#site-generator a:hover{
+    text-decoration: underline;
+}
